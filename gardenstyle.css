@@ -1,0 +1,105 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    /* background-color: #01230df5; */
+    /* background-color: #0d0c0b; */
+    /* background-color: #2c381cc1; */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; */
+    bottom: 0;
+    text-align: end;
+    padding: 0px 0px 40px 0px;
+    box-sizing: border-box;
+    align-items: flex-end; 
+}
+
+
+
+.bigbox {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: end;
+    padding: 0px 0px 20px 0px;
+    box-sizing: border-box;
+    align-items: flex-end;
+}
+
+
+#novel {
+    color: #074521;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    text-align: center;
+    width: calc(100% - 40px); /* Anpassung, um die Breite der Textbox zu steuern */
+    max-width: 800px;
+    height: 125px; /* Feste Höhe der Textbox */
+    overflow-y: auto; /* Scrollbar hinzufügen, wenn der Inhalt die Höhe überschreitet */
+}
+
+.abschnitt {
+    margin: 0px 20px 20px 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* .charaktere-bilder, .charaktere-bilder2 {
+    display: flex;
+    flex-direction: column; /* Bilder untereinander anordnen */
+    /* align-items: center; */
+    /* gap: 10px; */
+/* }  */
+
+.charaktere-bilder img, .charaktere-bilder2 img {
+    max-width: 300px; /* Maximale Breite der Bilder */
+    height: auto;
+}
+
+button {
+    padding: 6px 10px;
+    font-size: 16px;
+    background-color: #074521;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #94e18b;
+}
+.menu-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 900px;
+    background-color: #074521;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu-button:hover {
+    background-color:#94e18b;
+}
